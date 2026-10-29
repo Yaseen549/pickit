@@ -1,0 +1,23 @@
+{
+  "name": "PickIt - Decision Wheel",
+  "short_name": "PickIt",
+  "description": "A clean, minimal, single-viewport, open-source decision wheel. Enter options, spin the wheel, and let fate decide.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf8",
+  "theme_color": "#fafaf8",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

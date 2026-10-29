@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="hubGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#dcdcd6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Rounded Squircle Base -->
+  <rect width="32" height="32" rx="8" fill="#20201F" />
+
+  <!-- Outer Wheel Rim -->
+  <circle cx="16" cy="16" r="11" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.9" />
+
+  <!-- Spoke Divisions -->
+  <line x1="16" y1="5" x2="16" y2="27" stroke="#ffffff" stroke-width="1.2" opacity="0.7" />
+  <line x1="5" y1="16" x2="27" y2="16" stroke="#ffffff" stroke-width="1.2" opacity="0.7" />
+  <line x1="8.22" y1="8.22" x2="23.78" y2="23.78" stroke="#ffffff" stroke-width="1.2" opacity="0.7" />
+  <line x1="23.78" y1="8.22" x2="8.22" y2="23.78" stroke="#ffffff" stroke-width="1.2" opacity="0.7" />
+
+  <!-- Center Hub -->
+  <circle cx="16" cy="16" r="3.4" fill="url(#hubGrad)" />
+  <circle cx="16" cy="16" r="1.6" fill="#20201F" />
+  <circle cx="16" cy="16" r="0.6" fill="#ffffff" />
+
+  <!-- 12 o'clock Directional Pointer -->
+  <polygon points="16,8.2 13.6,3.6 18.4,3.6" fill="#b7a7d9" stroke="#ffffff" stroke-width="0.6" />
+</svg>
